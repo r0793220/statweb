@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <div class="col30">
+      <h1>Column</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam! Cum a, delectus fuga architecto voluptas ducimus placeat repudiandae temporibus perspiciatis, nemo sint enim rerum, dolores facilis natus inventore quae?</p>
+    </div>
+    <div class="col70">
+      <h1>Column</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod cupiditate veritatis cum sed, eveniet hic repellat ratione sapiente sint numquam placeat est recusandae consequuntur blanditiis officia tempora? Nihil, fuga accusamus!</p>
+    </div>
+  </div>
+ 
+</body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .col30 {
+    width: 30%;
+    padding: 15px;
+    float: left;
+    
+  }
+  .col70 {
+    width: 70%;
+    padding: 15px;
+    float: left;
+  }
+
+  @media screen and (max-width: 600px) {
+  .col30 {
+    width: 100%;
+  }
+  .col70 {
+    width: 100%;
+  }
+}
+</style>
